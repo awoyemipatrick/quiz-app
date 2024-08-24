@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/Style/style.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Start quiz button -->
+      <div class="start_btn">
+        <button id="startQuizBtn">Start Quiz</button>
+      </div>
+
+      <!-- Info box -->
+      <div class="info_box hide">
+        <div class="info_title">
+          <h2>Quiz Instructions</h2>
+        </div>
+        <ul class="info_list">
+          <li class="info">1. You will have only <span>15 seconds</span> per question.</li>
+          <li class="info">2. Once you select your answer, you can't reselect.</li>
+          <li class="info">3. You can't select any option once time goes off.</li>
+          <li class="info">4. You can't exit the quiz while you're playing.</li>
+          <li class="info">5. You'll get points based on your correct answers.</li>
+        </ul>
+        <div class="btns">
+          <button class="quit">Exit Quiz</button>
+          <button class="restart">Continue</button>
+        </div>
+      </div>
+
+      <!-- Quiz container -->
+      <div class="quiz_container hide">
+        <header>
+          <div class="title">Awesome Quiz App</div>
+          <div class="timer">
+            <div class="time_text">Time left</div>
+            <div class="time_reading">15</div>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-bar-fill"></div>
+          </div>
+        </header>
+
+        <!-- Quiz box -->
+        <section class="quiz_box">
+          <div class="quiz_question">
+            <h2 class="question">Question 1</h2>
+            <div class="options_list">
+              <!-- Options will be dynamically generated here -->
+            </div>
+            <button id="next" class="next_btn">Next Question</button>
+          </div>
+
+          <!-- Quiz box footer -->
+          <footer class="hide">
+            <div id="result" class="total_questions">
+              <p>Your Score: <span id="score">0</span> out of <span class="total">0</span> questions</p>
+            </div>
+          </footer>
+        </section>
+      </div>
+      <!-- Error message container -->
+      <div class="error_message hide">Failed to load quiz data. Please try again later.</div>
+    </div>
+    <script src="/src/JS/script.js"></script>
+  </body>
+</html>

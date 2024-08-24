@@ -1,0 +1,237 @@
+[
+    {
+        "question": "What is JavaScript?",
+        "options": ["A programming language", "A type of coffee", "A scripting language for creating desktop applications", "None of the above"],
+        "answer": 0
+    },
+    {
+        "question": "Which keyword is used to declare a variable in JavaScript?",
+        "options": ["var", "let", "const", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "What is the correct syntax to log a message in the console?",
+        "options": ["console.log('message');", "log.console('message');", "console('message');", "print('message');"],
+        "answer": 0
+    },
+    {
+        "question": "What will `typeof NaN` return?",
+        "options": ["'number'", "'NaN'", "'undefined'", "'object'"],
+        "answer": 0
+    },
+    {
+        "question": "Which method is used to round a number to the nearest integer?",
+        "options": ["Math.round()", "Math.ceil()", "Math.floor()", "Math.random()"],
+        "answer": 0
+    },
+    {
+        "question": "Which method converts a JSON string into a JavaScript object?",
+        "options": ["JSON.parse()", "JSON.stringify()", "JSON.convert()", "JSON.objectify()"],
+        "answer": 0
+    },
+    {
+        "question": "How do you create a function in JavaScript?",
+        "options": ["function myFunction() {}", "function = myFunction() {}", "create myFunction() {}", "def myFunction() {}"],
+        "answer": 0
+    },
+    {
+        "question": "Which event occurs when the user clicks on an HTML element?",
+        "options": ["onmouseclick", "onchange", "onclick", "onmouseover"],
+        "answer": 2
+    },
+    {
+        "question": "Which operator is used to assign a value to a variable?",
+        "options": ["=", "==", "===", ":"],
+        "answer": 0
+    },
+    {
+        "question": "What is the result of '2' + 2 in JavaScript?",
+        "options": ["4", "'4'", "'22'", "NaN"],
+        "answer": 2
+    },
+    {
+        "question": "What does '===' operator signify in JavaScript?",
+        "options": ["Assignment", "Comparison of values", "Comparison of values and types", "None of the above"],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is a JavaScript data type?",
+        "options": ["Number", "String", "Boolean", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "How can you add a comment in JavaScript?",
+        "options": ["<!-- comment -->", "// comment", "# comment", "/* comment */"],
+        "answer": 1
+    },
+    {
+        "question": "How do you declare a constant in JavaScript?",
+        "options": ["constant x = 10;", "var x = 10;", "let x = 10;", "const x = 10;"],
+        "answer": 3
+    },
+    {
+        "question": "Which method is used to join two or more arrays in JavaScript?",
+        "options": ["concat()", "join()", "push()", "merge()"],
+        "answer": 0
+    },
+    {
+        "question": "How do you find the minimum of x and y using JavaScript?",
+        "options": ["Math.min(x, y)", "min(x, y)", "Math.minVal(x, y)", "minimum(x, y)"],
+        "answer": 0
+    },
+    {
+        "question": "Which JavaScript method is used to access an HTML element by ID?",
+        "options": ["getElementById()", "getElementByClass()", "getElementByName()", "getElementByTag()"],
+        "answer": 0
+    },
+    {
+        "question": "How do you write a conditional statement for executing some statements only if 'i' is equal to 5?",
+        "options": ["if i = 5 then", "if i == 5 then", "if (i == 5)", "if i = 5"],
+        "answer": 2
+    },
+    {
+        "question": "Which keyword is used to check whether a given property is valid or not?",
+        "options": ["in", "is in", "exists", "lies"],
+        "answer": 0
+    },
+    {
+        "question": "What is the output of 10 + '20' in JavaScript?",
+        "options": ["30", "1020", "NaN", "20"],
+        "answer": 1
+    },
+    {
+        "question": "What will `2 === '2'` return?",
+        "options": ["true", "false", "undefined", "null"],
+        "answer": 1
+    },
+    {
+        "question": "Which JavaScript method is used to remove whitespace from both ends of a string?",
+        "options": ["strip()", "trim()", "removeWhitespace()", "cut()"],
+        "answer": 1
+    },
+    {
+        "question": "How do you create an array in JavaScript?",
+        "options": ["let colors = ['red', 'green', 'blue']", "let colors = 'red', 'green', 'blue'", "let colors = (1:'red', 2:'green', 3:'blue')", "let colors = 'red'; 'green'; 'blue'"],
+        "answer": 0
+    },
+    {
+        "question": "What is the correct syntax to write a JavaScript array?",
+        "options": ["var colors = 'red', 'green', 'blue'", "var colors = (1:'red', 2:'green', 3:'blue')", "var colors = ['red', 'green', 'blue']", "var colors = 'red'; 'green'; 'blue'"],
+        "answer": 2
+    },
+    {
+        "question": "Which function is used to serialize an object into a JSON string in JavaScript?",
+        "options": ["JSON.stringify()", "JSON.parse()", "JSON.objectify()", "JSON.encode()"],
+        "answer": 0
+    },
+    {
+        "question": "How can you detect the client’s browser name in JavaScript?",
+        "options": ["navigator.appName", "browser.name", "client.navName", "window.browser"],
+        "answer": 0
+    },
+    {
+        "question": "What is the correct way to create a new object in JavaScript?",
+        "options": ["var obj = new Object();", "var obj = {};", "Both A and B", "None of the above"],
+        "answer": 2
+    },
+    {
+        "question": "Which method can be used to extract a section of a string and returns it as a new string?",
+        "options": ["slice()", "split()", "splice()", "extract()"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following is a valid type of function in JavaScript?",
+        "options": ["Named function", "Anonymous function", "Immediately invoked function", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "Which JavaScript keyword is used to declare a class?",
+        "options": ["class", "Class", "defineClass", "construct"],
+        "answer": 0
+    },
+    {
+        "question": "How do you write a single-line comment in JavaScript?",
+        "options": ["// comment", "<!-- comment -->", "# comment", "' comment"],
+        "answer": 0
+    },
+    {
+        "question": "What will the following code return: Boolean(10 > 9)?",
+        "options": ["true", "false", "NaN", "undefined"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following is used to define a variable in JavaScript?",
+        "options": ["var", "let", "const", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "How do you define a function named 'myFunction' in JavaScript?",
+        "options": ["function myFunction() {}", "def myFunction() {}", "function:myFunction() {}", "function = myFunction()"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following is a JavaScript framework?",
+        "options": ["React", "Laravel", "Django", "Flask"],
+        "answer": 0
+    },
+    {
+        "question": "What will `typeof []` return?",
+        "options": ["'object'", "'array'", "'undefined'", "'null'"],
+        "answer": 0
+    },
+    {
+        "question": "How do you add an element at the end of an array in JavaScript?",
+        "options": ["push()", "pop()", "add()", "append()"],
+        "answer": 0
+    },
+    {
+        "question": "What will the code `console.log(typeof NaN)` display?",
+        "options": ["'number'", "'NaN'", "'undefined'", "'object'"],
+        "answer": 0
+    },
+    {
+        "question": "Which method is used to remove the last element from an array?",
+        "options": ["pop()", "shift()", "remove()", "splice()"],
+        "answer": 0
+    },
+    {
+        "question": "What does 'DOM' stand for in JavaScript?",
+        "options": ["Document Object Model", "Data Object Model", "Digital Object Model", "Document Oriented Model"],
+        "answer": 0
+    },
+    {
+        "question": "How do you create a new date object in JavaScript?",
+        "options": ["new Date()", "Date.new()", "create Date()", "Date.create()"],
+        "answer": 0
+    },
+    {
+        "question": "Which method is used to sort an array in JavaScript?",
+        "options": ["sort()", "order()", "arrange()", "setOrder()"],
+        "answer": 0
+    },
+    {
+        "question": "What will `typeof null` return?",
+        "options": ["'object'", "'null'", "'undefined'", "'number'"],
+        "answer": 0
+    },
+    {
+        "question": "Which JavaScript method is used to find the largest number in a set?",
+        "options": ["Math.max()", "Math.ceil()", "Math.floor()", "Math.high()"],
+        "answer": 0
+    },
+    {
+        "question": "Which operator is used to compare both value and type?",
+        "options": ["==", "===", "!=", "!=="],
+        "answer": 1
+    },
+    {
+        "question": "What is the result of the following: '5' + 3?",
+        "options": ["'53'", "'8'", "8", "'5'3"],
+        "answer": 0
+    },
+    {
+        "question": "Which symbol is used for comments in JavaScript?",
+        "options": ["#", "//", "<!-- -->", "/* */"],
+        "answer": 1
+    }
+]
