@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const correctSound = new Audio("/media/correct-answer.mp3");
   const incorrectSound = new Audio("/media/wrong-answer.mp3");
 
-  let questions = []; // Array to hold quiz questions fetched from JSON
+  let questions = []; // Array to hold quiz questions fetched from data.json
   let currentQuestionIndex = 0;
   let score = 0;
   let timeLeft = 15; // Time per question in seconds
