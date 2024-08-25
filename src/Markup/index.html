@@ -8,14 +8,14 @@
   </head>
   <body>
     <div class="container">
-
       <!-- Start quiz button -->
       <div class="start_btn">
         <button id="startQuizBtn">Start Quiz</button>
       </div>
 
-      <!-- Info box -->
+      <!-- Info box (Quiz Instructions) -->
       <div class="info_box hide">
+        <!-- Hidden by default -->
         <div class="info_title">
           <h2>Quiz Instructions</h2>
         </div>
@@ -28,12 +28,13 @@
         </ul>
         <div class="btns">
           <button class="quit">Exit Quiz</button>
-          <button class="btn_continue">Continue</button>
+          <button class="restart" id="continueQuizBtn">Continue</button>
         </div>
       </div>
 
       <!-- Quiz container -->
       <div class="quiz_container hide">
+        <!-- Hidden by default -->
         <header>
           <div class="title">Awesome Quiz App</div>
           <div class="timer">
@@ -54,15 +55,35 @@
             </div>
             <button id="next" class="next_btn">Next Question</button>
           </div>
-
-          <!-- Quiz box footer -->
-          <footer class="hide">
-            <div id="result" class="total_questions">
-              <p>Your Score: <span id="score">0</span> out of <span class="total">0</span> questions</p>
-            </div>
-          </footer>
         </section>
       </div>
+
+      <!-- Result and Navigation container -->
+      <div class="result_container hide">
+        <h2>Quiz Result</h2>
+        <p>Your Score: <span id="score">0</span> out of <span id="total">0</span> questions</p>
+        <button id="viewFeedbackBtn">View Feedback</button>
+        <button id="viewLeaderboardBtn">View Leaderboard</button>
+      </div>
+
+      <!-- Feedback container -->
+      <div class="feedback_container hide">
+        <h2>Quiz Feedback</h2>
+        <ul id="feedbackList">
+          <!-- Feedback for each question will be dynamically generated here -->
+        </ul>
+        <button id="backToQuizBtn">Back to Quiz</button>
+      </div>
+
+      <!-- Leaderboard container -->
+      <div class="leaderboard_container hide">
+        <h2>Leaderboard</h2>
+        <ul id="leaderboardList">
+          <!-- High scores will be dynamically generated here -->
+        </ul>
+        <button id="backToQuizFromLeaderboardBtn">Back to Quiz</button>
+      </div>
+
       <!-- Error message container -->
       <div class="error_message hide">Failed to load quiz data. Please try again later.</div>
     </div>

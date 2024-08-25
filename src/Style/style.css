@@ -51,9 +51,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
   transition: background-color 0.5s;
-  min-height: 100vh;
-  line-height: 1.5;
 }
 
 /* Set shorter line heights on headings and interactive elements */
@@ -133,46 +132,24 @@ textarea:not([rows]) {
     gap: var(--gap, 1rem);
 } */
 
-
 /* -------------------------- */
 
-/* .container {
-    background-color: gray;
-    padding-inline: 2em;
-    margin-inline: auto;
-    max-width: 80rem;
-    border: 1px solid black;
-} */
-
 .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap; /* added line */
-    border: 0;
-  }
-  
-  
-  /* ------------------------------- */
-  /* QUIZ CONTAINER STYLING  */
-  /* ------------------------------- */
-
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  transition: background-color 0.5s;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap; /* added line */
+  border: 0;
 }
+
+/* ------------------------------- */
+/* QUIZ CONTAINER STYLING  */
+/* ------------------------------- */
+
 
 .container {
   width: 80%;
@@ -201,7 +178,11 @@ body {
 .start_btn button,
 .next_btn,
 .quit,
-.btn_continue {
+.restart,
+#viewFeedbackBtn,
+#viewLeaderboardBtn,
+#backToQuizBtn,
+#backToQuizFromLeaderboardBtn {
   background-color: #007bff;
   color: white;
   border: none;
@@ -216,7 +197,11 @@ body {
 .start_btn button:hover,
 .next_btn:hover,
 .quit:hover,
-.start:hover {
+.restart:hover,
+#viewFeedbackBtn:hover,
+#viewLeaderboardBtn:hover,
+#backToQuizBtn:hover,
+#backToQuizFromLeaderboardBtn:hover {
   background-color: #0056b3;
 }
 
@@ -235,6 +220,35 @@ body {
 
 .quiz_container {
   text-align: left;
+}
+
+.result_container {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback_container,
+.leaderboard_container {
+  text-align: left;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback_container ul,
+.leaderboard_container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feedback_container li,
+.leaderboard_container li {
+  margin: 10px 0;
 }
 
 .title {
@@ -279,10 +293,6 @@ body {
 footer {
   text-align: center;
   margin-top: 20px;
-}
-
-footer .total_questions {
-  font-size: 18px;
 }
 
 .error_message {
