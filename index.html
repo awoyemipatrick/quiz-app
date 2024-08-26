@@ -20,11 +20,19 @@
           <h2>Quiz Instructions</h2>
         </div>
         <ul class="info_list">
-          <li class="info">1. You will have only <span>15 seconds</span> per question.</li>
-          <li class="info">2. Once you select your answer, you can't reselect.</li>
-          <li class="info">3. You can't select any option once time goes off.</li>
+          <li class="info">
+            1. You will have only <span>15 seconds</span> per question.
+          </li>
+          <li class="info">
+            2. Once you select your answer, you can't reselect.
+          </li>
+          <li class="info">
+            3. You can't select any option once time goes off.
+          </li>
           <li class="info">4. You can't exit the quiz while you're playing.</li>
-          <li class="info">5. You'll get points based on your correct answers.</li>
+          <li class="info">
+            5. You'll get points based on your correct answers.
+          </li>
         </ul>
         <div class="btns">
           <button class="quit">Exit Quiz</button>
@@ -36,10 +44,12 @@
       <div class="quiz_container hide">
         <!-- Hidden by default -->
         <header>
-          <div class="title">Awesome Quiz App</div>
-          <div class="timer">
-            <div class="time_text">Time left</div>
-            <div class="time_reading">15</div>
+          <div class="quiz-header">
+            <div class="title">Awesome Quiz App</div>
+            <div class="timer">
+              <div class="time_text">Time left:</div>
+              <div class="time_reading">15</div>
+            </div>
           </div>
           <div class="progress-bar">
             <div class="progress-bar-fill"></div>
@@ -61,7 +71,10 @@
       <!-- Result and Navigation container -->
       <div class="result_container hide">
         <h2>Quiz Result</h2>
-        <p>Your Score: <span id="score">0</span> out of <span id="total">0</span> questions</p>
+        <p>
+          Your Score: <span id="score">0</span> out of
+          <span id="total">0</span> questions
+        </p>
         <button id="viewFeedbackBtn">View Feedback</button>
         <button id="viewLeaderboardBtn">View Leaderboard</button>
       </div>
@@ -85,7 +98,9 @@
       </div>
 
       <!-- Error message container -->
-      <div class="error_message hide">Failed to load quiz data. Please try again later.</div>
+      <div class="error_message hide">
+        Failed to load quiz data. Please try again later.
+      </div>
     </div>
     <script src="/src/JS/script.js"></script>
   </body>

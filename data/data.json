@@ -15,67 +15,67 @@
         "answer": 0
     },
     {
-        "question": "What will `typeof NaN` return?",
+        "question": "04. What will `typeof NaN` return?",
         "options": ["'number'", "'NaN'", "'undefined'", "'object'"],
         "answer": 0
     },
     {
-        "question": "Which method is used to round a number to the nearest integer?",
+        "question": "05. Which method is used to round a number to the nearest integer?",
         "options": ["Math.round()", "Math.ceil()", "Math.floor()", "Math.random()"],
         "answer": 0
     },
     {
-        "question": "Which method converts a JSON string into a JavaScript object?",
+        "question": "06. Which method converts a JSON string into a JavaScript object?",
         "options": ["JSON.parse()", "JSON.stringify()", "JSON.convert()", "JSON.objectify()"],
         "answer": 0
     },
     {
-        "question": "How do you create a function in JavaScript?",
+        "question": "07. How do you create a function in JavaScript?",
         "options": ["function myFunction() {}", "function = myFunction() {}", "create myFunction() {}", "def myFunction() {}"],
         "answer": 0
     },
     {
-        "question": "Which event occurs when the user clicks on an HTML element?",
+        "question": "08. Which event occurs when the user clicks on an HTML element?",
         "options": ["onmouseclick", "onchange", "onclick", "onmouseover"],
         "answer": 2
     },
     {
-        "question": "Which operator is used to assign a value to a variable?",
+        "question": "09. Which operator is used to assign a value to a variable?",
         "options": ["=", "==", "===", ":"],
         "answer": 0
     },
     {
-        "question": "What is the result of '2' + 2 in JavaScript?",
+        "question": "10. What is the result of '2' + 2 in JavaScript?",
         "options": ["4", "'4'", "'22'", "NaN"],
         "answer": 2
     },
     {
-        "question": "What does '===' operator signify in JavaScript?",
+        "question": "11. What does '===' operator signify in JavaScript?",
         "options": ["Assignment", "Comparison of values", "Comparison of values and types", "None of the above"],
         "answer": 2
     },
     {
-        "question": "Which of the following is a JavaScript data type?",
+        "question": "12. Which of the following is a JavaScript data type?",
         "options": ["Number", "String", "Boolean", "All of the above"],
         "answer": 3
     },
     {
-        "question": "How can you add a comment in JavaScript?",
+        "question": "13. How can you add a comment in JavaScript?",
         "options": ["<!-- comment -->", "// comment", "# comment", "/* comment */"],
         "answer": 1
     },
     {
-        "question": "How do you declare a constant in JavaScript?",
+        "question": "14. How do you declare a constant in JavaScript?",
         "options": ["constant x = 10;", "var x = 10;", "let x = 10;", "const x = 10;"],
         "answer": 3
     },
     {
-        "question": "Which method is used to join two or more arrays in JavaScript?",
+        "question": "15. Which method is used to join two or more arrays in JavaScript?",
         "options": ["concat()", "join()", "push()", "merge()"],
         "answer": 0
     },
     {
-        "question": "How do you find the minimum of x and y using JavaScript?",
+        "question": "16. How do you find the minimum of x and y using JavaScript?",
         "options": ["Math.min(x, y)", "min(x, y)", "Math.minVal(x, y)", "minimum(x, y)"],
         "answer": 0
     },

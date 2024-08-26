@@ -222,6 +222,23 @@ textarea:not([rows]) {
   margin: 10px 0;
 }
 
+.quiz-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.timer {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  font-size: 18px;
+  color: #fff;
+  background: #007bff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .quiz_container {
   text-align: left;
 }
