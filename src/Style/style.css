@@ -45,7 +45,11 @@ li {
 /* Set core body defaults */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background: url(/media/output.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
   margin: 0;
   padding: 0;
   display: flex;
