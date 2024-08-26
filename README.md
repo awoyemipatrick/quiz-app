@@ -30,8 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here]()
-- Live Site URL: [Live site URL here]()
+- Live Site URL: [Live site URL here](https://quiz-app-313.netlify.app/)
 
 ## My process
 
@@ -40,14 +39,9 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - javascript
 
 ### What I learned
-
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
-
-To see how you can add code snippets, see below:
 
 ```html
 
@@ -69,13 +63,13 @@ If you want more help with writing markdown, check out [The Markdown Guide](http
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [w3 school](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
-- Website - [Awoyemi patrick Gbenga](https://www.your-site.com)
-- Twitter - [@valuehorizons](https://www.twitter.com/valuehorizons)
+<!-- - Website - [Awoyemi patrick Gbenga](https://www.your-site.com) -->
+<!-- - Twitter - [@valuehorizons](https://www.twitter.com/valuehorizons) -->
 
 ## Acknowledgments
 
