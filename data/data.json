@@ -80,158 +80,173 @@
         "answer": 0
     },
     {
-        "question": "Which JavaScript method is used to access an HTML element by ID?",
+        "question": "17. Which JavaScript method is used to access an HTML element by ID?",
         "options": ["getElementById()", "getElementByClass()", "getElementByName()", "getElementByTag()"],
         "answer": 0
     },
     {
-        "question": "How do you write a conditional statement for executing some statements only if 'i' is equal to 5?",
+        "question": "18. How do you write a conditional statement for executing some statements only if 'i' is equal to 5?",
         "options": ["if i = 5 then", "if i == 5 then", "if (i == 5)", "if i = 5"],
         "answer": 2
     },
     {
-        "question": "Which keyword is used to check whether a given property is valid or not?",
+        "question": "19. Which keyword is used to check whether a given property is valid or not?",
         "options": ["in", "is in", "exists", "lies"],
         "answer": 0
     },
     {
-        "question": "What is the output of 10 + '20' in JavaScript?",
+        "question": "20. What is the output of 10 + '20' in JavaScript?",
         "options": ["30", "1020", "NaN", "20"],
         "answer": 1
     },
     {
-        "question": "What will `2 === '2'` return?",
+        "question": "21. What will `2 === '2'` return?",
         "options": ["true", "false", "undefined", "null"],
         "answer": 1
     },
     {
-        "question": "Which JavaScript method is used to remove whitespace from both ends of a string?",
+        "question": "22. Which JavaScript method is used to remove whitespace from both ends of a string?",
         "options": ["strip()", "trim()", "removeWhitespace()", "cut()"],
         "answer": 1
     },
     {
-        "question": "How do you create an array in JavaScript?",
+        "question": "23. How do you create an array in JavaScript?",
         "options": ["let colors = ['red', 'green', 'blue']", "let colors = 'red', 'green', 'blue'", "let colors = (1:'red', 2:'green', 3:'blue')", "let colors = 'red'; 'green'; 'blue'"],
         "answer": 0
     },
     {
-        "question": "What is the correct syntax to write a JavaScript array?",
+        "question": "24. What is the correct syntax to write a JavaScript array?",
         "options": ["var colors = 'red', 'green', 'blue'", "var colors = (1:'red', 2:'green', 3:'blue')", "var colors = ['red', 'green', 'blue']", "var colors = 'red'; 'green'; 'blue'"],
         "answer": 2
     },
     {
-        "question": "Which function is used to serialize an object into a JSON string in JavaScript?",
+        "question": "25. Which function is used to serialize an object into a JSON string in JavaScript?",
         "options": ["JSON.stringify()", "JSON.parse()", "JSON.objectify()", "JSON.encode()"],
         "answer": 0
     },
     {
-        "question": "How can you detect the client’s browser name in JavaScript?",
+        "question": "26. How can you detect the client’s browser name in JavaScript?",
         "options": ["navigator.appName", "browser.name", "client.navName", "window.browser"],
         "answer": 0
     },
     {
-        "question": "What is the correct way to create a new object in JavaScript?",
+        "question": "27. What is the correct way to create a new object in JavaScript?",
         "options": ["var obj = new Object();", "var obj = {};", "Both A and B", "None of the above"],
         "answer": 2
     },
     {
-        "question": "Which method can be used to extract a section of a string and returns it as a new string?",
+        "question": "28. Which method can be used to extract a section of a string and returns it as a new string?",
         "options": ["slice()", "split()", "splice()", "extract()"],
         "answer": 0
     },
     {
-        "question": "Which of the following is a valid type of function in JavaScript?",
+        "question": "29. Which of the following is a valid type of function in JavaScript?",
         "options": ["Named function", "Anonymous function", "Immediately invoked function", "All of the above"],
         "answer": 3
     },
     {
-        "question": "Which JavaScript keyword is used to declare a class?",
+        "question": "30. Which JavaScript keyword is used to declare a class?",
         "options": ["class", "Class", "defineClass", "construct"],
         "answer": 0
     },
     {
-        "question": "How do you write a single-line comment in JavaScript?",
+        "question": "31. How do you write a single-line comment in JavaScript?",
         "options": ["// comment", "<!-- comment -->", "# comment", "' comment"],
         "answer": 0
     },
     {
-        "question": "What will the following code return: Boolean(10 > 9)?",
+        "question": "32. What will the following code return: Boolean(10 > 9)?",
         "options": ["true", "false", "NaN", "undefined"],
         "answer": 0
     },
     {
-        "question": "Which of the following is used to define a variable in JavaScript?",
+        "question": "33. Which of the following is used to define a variable in JavaScript?",
         "options": ["var", "let", "const", "All of the above"],
         "answer": 3
     },
     {
-        "question": "How do you define a function named 'myFunction' in JavaScript?",
+        "question": "34. How do you define a function named 'myFunction' in JavaScript?",
         "options": ["function myFunction() {}", "def myFunction() {}", "function:myFunction() {}", "function = myFunction()"],
         "answer": 0
     },
     {
-        "question": "Which of the following is a JavaScript framework?",
+        "question": "35. Which of the following is a JavaScript framework?",
         "options": ["React", "Laravel", "Django", "Flask"],
         "answer": 0
     },
     {
-        "question": "What will `typeof []` return?",
+        "question": "36. What will `typeof []` return?",
         "options": ["'object'", "'array'", "'undefined'", "'null'"],
         "answer": 0
     },
     {
-        "question": "How do you add an element at the end of an array in JavaScript?",
+        "question": "37. How do you add an element at the end of an array in JavaScript?",
         "options": ["push()", "pop()", "add()", "append()"],
         "answer": 0
     },
     {
-        "question": "What will the code `console.log(typeof NaN)` display?",
+        "question": "38. What will the code `console.log(typeof NaN)` display?",
         "options": ["'number'", "'NaN'", "'undefined'", "'object'"],
         "answer": 0
     },
     {
-        "question": "Which method is used to remove the last element from an array?",
+        "question": "39. Which method is used to remove the last element from an array?",
         "options": ["pop()", "shift()", "remove()", "splice()"],
         "answer": 0
     },
     {
-        "question": "What does 'DOM' stand for in JavaScript?",
+        "question": "40. What does 'DOM' stand for in JavaScript?",
         "options": ["Document Object Model", "Data Object Model", "Digital Object Model", "Document Oriented Model"],
         "answer": 0
     },
     {
-        "question": "How do you create a new date object in JavaScript?",
+        "question": "41. How do you create a new date object in JavaScript?",
         "options": ["new Date()", "Date.new()", "create Date()", "Date.create()"],
         "answer": 0
     },
     {
-        "question": "Which method is used to sort an array in JavaScript?",
+        "question": "42. Which method is used to sort an array in JavaScript?",
         "options": ["sort()", "order()", "arrange()", "setOrder()"],
         "answer": 0
     },
     {
-        "question": "What will `typeof null` return?",
+        "question": "43. What will `typeof null` return?",
         "options": ["'object'", "'null'", "'undefined'", "'number'"],
         "answer": 0
     },
     {
-        "question": "Which JavaScript method is used to find the largest number in a set?",
+        "question": "44. Which JavaScript method is used to find the largest number in a set?",
         "options": ["Math.max()", "Math.ceil()", "Math.floor()", "Math.high()"],
         "answer": 0
     },
     {
-        "question": "Which operator is used to compare both value and type?",
+        "question": "45. Which operator is used to compare both value and type?",
         "options": ["==", "===", "!=", "!=="],
         "answer": 1
     },
     {
-        "question": "What is the result of the following: '5' + 3?",
+        "question": "46. What is the result of the following: '5' + 3?",
         "options": ["'53'", "'8'", "8", "'5'3"],
         "answer": 0
     },
     {
-        "question": "Which symbol is used for comments in JavaScript?",
+        "question": "47. Which symbol is used for comments in JavaScript?",
         "options": ["#", "//", "<!-- -->", "/* */"],
+        "answer": 1
+    },
+    {
+        "question": "48. Which JavaScript method is used to convert a string to uppercase?",
+        "options": ["toUpperCase()", "makeUpperCase()", "toCaps()", "convertToUpperCase()"],
+        "answer": 0
+    },
+    {
+        "question": "49. Which method is used to add one or more elements to the beginning of an array?",
+        "options": ["unshift()", "shift()", "push()", "concat()"],
+        "answer": 0
+    },
+    {
+        "question": "50. What will `console.log(2 + '2')` output in JavaScript?",
+        "options": ["4", "'22'", "NaN", "undefined"],
         "answer": 1
     }
 ]

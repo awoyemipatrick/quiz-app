@@ -48,14 +48,14 @@ body {
   background: url(/media/output.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+
   transition: background-color 0.5s;
 }
 
@@ -179,6 +179,7 @@ textarea:not([rows]) {
   display: none;
 }
 
+
 .start_btn button,
 .next_btn,
 .quit,
@@ -244,6 +245,8 @@ textarea:not([rows]) {
 }
 
 .result_container {
+  /* display: flex;
+  flex-direction: column; */
   text-align: center;
   padding: 20px;
   background-color: #fff;
@@ -255,14 +258,13 @@ textarea:not([rows]) {
 .leaderboard_container {
   text-align: left;
   padding: 20px;
-  background-color: #fff;
+  background: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .feedback_container ul,
 .leaderboard_container ul {
-  list-style-type: none;
   padding: 0;
   margin: 0;
 }
